@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cij0pfd407o4u"]
+
+[ext_resource type="Texture2D" uid="uid://bvvihmt2dcxrr" path="res://gurren bg.jpg" id="1_v7hfs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0o36o"]
+size = Vector2(1151, 658)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="SubViewport" type="SubViewport" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Fondo" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(776, 348)
+texture = ExtResource("1_v7hfs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+visible = false
+position = Vector2(575.5, 319)
+shape = SubResource("RectangleShape2D_0o36o")
