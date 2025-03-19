@@ -12,10 +12,13 @@ size = Vector2(1151, 658)
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="Fondo" type="Sprite2D" parent="StaticBody2D"]
-position = Vector2(776, 348)
+position = Vector2(609.889, 297.992)
+scale = Vector2(0.714699, 0.714699)
 texture = ExtResource("1_v7hfs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 visible = false
 position = Vector2(575.5, 319)
 shape = SubResource("RectangleShape2D_0o36o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
