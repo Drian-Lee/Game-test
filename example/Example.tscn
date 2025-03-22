@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://bculs28gstcxk"]
 
-[ext_resource type="Script" path="res://example/Gift.gd" id="1_yfglq"]
-[ext_resource type="Script" path="res://example/ChatContainer.gd" id="2_knohk"]
-[ext_resource type="Script" path="res://example/LineEdit.gd" id="3_oafvo"]
-[ext_resource type="Script" path="res://example/Button.gd" id="4_wrvcq"]
+[ext_resource type="Script" uid="uid://dspmq6ksqbmd6" path="res://example/Gift.gd" id="1_yfglq"]
+[ext_resource type="Script" uid="uid://qrbhjud7dl2p" path="res://example/ChatContainer.gd" id="2_knohk"]
+[ext_resource type="Script" uid="uid://3q02glvs50kk" path="res://example/LineEdit.gd" id="3_oafvo"]
+[ext_resource type="Script" uid="uid://dbt7isj2p4baj" path="res://example/Button.gd" id="4_wrvcq"]
 
 [node name="Example" type="Control"]
 layout_mode = 3
