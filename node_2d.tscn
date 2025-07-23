@@ -12,7 +12,7 @@ size = Vector2(1151, 658)
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="Fondo" type="Sprite2D" parent="StaticBody2D"]
-position = Vector2(1050, 420)
+position = Vector2(685, 357)
 scale = Vector2(0.714699, 0.714699)
 texture = ExtResource("1_v7hfs")
 
